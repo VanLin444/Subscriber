@@ -36,3 +36,61 @@ body{
     color: white;
     line-height: 2em;
 }
+
+.wrapper .content{
+    margin: 20px 0;
+}
+
+.content header{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content p{
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
+form .field {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+form .field input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 20px;
+    outline: none;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+}
+
+form .btn{
+    height:45px;
+}
+
+form .field input:focus{
+    border-color:rgb(28, 125, 235);
+}
+
+form .btn input{
+    background: linear-gradient(45deg, red, blue);
+    color:white;
+    cursor: pointer;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .btn:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
+.info{
+    font-size: 13px;
+}
