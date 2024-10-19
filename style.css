@@ -94,3 +94,25 @@ form .btn:active{
 .info{
     font-size: 13px;
 }
+
+.wrapper .text{
+    margin-top: 5px;
+}
+
+.alert{
+    margin: -9px 0 12px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error{
+    color: rgb(150, 30, 30);
+    background: rgb(255, 142, 151);
+    border: 1px solid rgb(255, 142, 151);
+}
+
+.success{
+    color:green;
+    background: lightgreen;
+    border: 1px solid lightgreen;
+}

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,12 +15,15 @@
             <header>Subscriber</header>
             <p>Подписка на мой ГитХаб и получение последних новостей</p>
         </div>
-        <form action="#">
+        <form action="index.php" method="POST">
+            <?php
+                include ("email.php");
+            ?>
             <div class="field">
-                <input type="text" placeholder="Введите ваш email" required>
+                <input type="text" name="email" placeholder="Введите ваш email" required>
             </div>
             <div class="field btn">
-                <input type="submit" value="Подписаться">
+                <input type="submit" name="subscribe" value="Подписаться">
             </div>
         </form>
         <div class="info">Ваша информация остается конфиденциальной</div>
