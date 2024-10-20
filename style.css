@@ -103,7 +103,10 @@ form .btn:active{
     margin: -9px 0 12px 0;
     padding: 10px;
     border-radius: 5px;
+    animation: hidealert 0s 3s forwards; /* Анимация исчезновения alert*/
 }
+
+@keyframes hidealert {to {display: none;}} /* Заканчиваем анимацию исчезновением alert*/
 
 .error{
     color: rgb(150, 30, 30);
@@ -116,3 +119,4 @@ form .btn:active{
     background: lightgreen;
     border: 1px solid lightgreen;
 }
+
