@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Subscriber</title>
 </head>
@@ -15,7 +15,7 @@
             <header>Subscriber</header>
             <p>Подписка на мой ГитХаб и получение последних новостей</p>
         </div>
-        <form action="index.php" method="POST">
+        <form action="./index.php" method="POST">
             <?php
                 include ("email.php");
             ?>
