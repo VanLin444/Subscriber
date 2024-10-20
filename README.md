@@ -1,7 +1,7 @@
 # Subscriber
 Страница с формой для ввода почты и кнопки для отправки данных,
 так же несколько информационных полей для вывода важных сведений.
-<a href="subscriber.sovagithub.beget.tech" terget="_blank">Реализация проекта</a>
+Реализация проекта : subscriber.sovagithub.beget.tech
 Примерное представление макета страницы:
 <img src="maket.png" alt="Макет">
 
